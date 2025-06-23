@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 long factorial(int user_num)
@@ -15,6 +15,6 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int user_num;
-	cout << "Ââåäèòå ÷èñëî, ôàêòîðèàë êîòîðîãî õîòèòå óçíàòü: "; cin >> user_num;
-	cout << "Ôàêòîðèàë " << user_num << " ðàâåí " << factorial(user_num) << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ñ„Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ·Ð½Ð°Ñ‚ÑŒ: "; cin >> user_num;
+	cout << "Ð¤Ð°ÐºÑ‚Ð¾Ñ€Ð¸Ð°Ð» " << user_num << " Ñ€Ð°Ð²ÐµÐ½ " << factorial(user_num) << endl;
 }

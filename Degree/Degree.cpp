@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 long long degree(int indicator, int footing)
@@ -16,7 +16,7 @@ void main()
     setlocale(LC_ALL, "");
     int indicator;
     int footing;
-    cout << "Ââåäèòå îñíîâàíèå ñòåïåíè: "; cin >> footing;
-    cout<< "Ââåäèòå ïîêàçàòåëü ñòåïåíè: "; cin >> indicator;
-    cout << "Îòâåò: " << degree(indicator, footing) << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¾ÑÐ½Ð¾Ð²Ð°Ð½Ð¸Ðµ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> footing;
+    cout<< "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿Ð¾ÐºÐ°Ð·Ð°Ñ‚ÐµÐ»ÑŒ ÑÑ‚ÐµÐ¿ÐµÐ½Ð¸: "; cin >> indicator;
+    cout << "ÐžÑ‚Ð²ÐµÑ‚: " << degree(indicator, footing) << endl;
 }

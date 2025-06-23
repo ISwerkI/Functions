@@ -1,7 +1,7 @@
-#include <iostream>
+п»ї#include <iostream>
 using namespace std;
 
-int Add(int a, int b);			//Прототип (объявление)
+int Add(int a, int b);			//РџСЂРѕС‚РѕС‚РёРї (РѕР±СЉСЏРІР»РµРЅРёРµ)
 int Sub(int a, int b);
 int Mult(int a, int b);
 double Div(int a, int b);
@@ -11,14 +11,14 @@ void main()
 {
 	setlocale(LC_ALL, "");
 	int a, b;
-	cout << "Введите два числа: "; cin >> a >> b;
-	int sum = Add(a, b); //Использование функции или её вызов (Function call)
+	cout << "Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°: "; cin >> a >> b;
+	int sum = Add(a, b); //РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ С„СѓРЅРєС†РёРё РёР»Рё РµС‘ РІС‹Р·РѕРІ (Function call)
 	cout << a << " + " << b << " = " << sum<<endl;
 	cout << a << " - " << b << " = " << Sub(a,b) << endl;
 	cout << a << " * " << b << " = " << Mult(a, b) << endl;
 	cout << a << " / " << b << " = " << Div(a, b) << endl;
 }
-int Add(int a, int b)		//Реалитзация функции
+int Add(int a, int b)		//Р РµР°Р»РёС‚Р·Р°С†РёСЏ С„СѓРЅРєС†РёРё
 {
 	int c = a + b;
 	return c;
